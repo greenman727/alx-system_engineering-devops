@@ -1,2 +1,2 @@
 #!/bin/bash
-var=$SUDO_USER 
+$SUDO_USER 
