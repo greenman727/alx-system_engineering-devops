@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# A Bash acript that displays the content ot the file "/etc/passwd".
+#   Displays username
+#   Displays user id
+#   Displays Home directory path for the user.
+
+while read -r passwd;
+do
+  echo "$passwd" | cut -d ':' -f1,3,6
+done < "/etc/passwd"
