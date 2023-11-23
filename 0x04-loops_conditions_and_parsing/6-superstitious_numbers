@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # A bash that displays numbers from 1 to 20.
+#   "bad luck from china" for the 4th iteratio
+#   "bad luck from japan" for the 9th iteration
+#   "bad luck from italy" for the 17th loop iteration.
 
 count=1
 
