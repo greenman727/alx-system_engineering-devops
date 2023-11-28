@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# A Bash (init) script that manages manage_my_process.
+
+while true
+do
+  trap ''start
+  echo "$$" /var/run/my_process.pid
+  echo "manage_my_process started"
+done
+
+while true
+do
