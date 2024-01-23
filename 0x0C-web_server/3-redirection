@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Installs Nginx with the following configurations:
-## You can’t use systemctl for restarting nginx
 
 apt-get -y update
 apt-get -y install nginx
